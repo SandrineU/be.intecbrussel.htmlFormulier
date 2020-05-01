@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en -UK">
+<head>
+    <meta charset="UTF-8">
+    <title>The Power of An African Woman</title>
+    <h1>Klanten Formulier | NL</h1>
+    <style>
+        #rcorners1 {
+            border-radius: 25px;
+            background: yellow;
+            padding: 20px;
+            width: 2px;
+            height: 150px;
+        }
+
+        body, html {
+            background-color: orange;
+            background-image: linear-gradient(#ffa500, yellow, red);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form >
+        <h1>Vul onderstande formulier in</h1>
+        <h2>... en geniet van een relax gevende geluid...</h2>
+        <audio controls src="https://www.youtube-nocookie.com/embed/X7BCwekvNbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" type="audio/ogg">
+        </audio> <br>
+
+        <!-- <img src="https://images.app.goo.gl/cYGh246rF53ucg6V7" alt="afro" width="500" height="333"> -->
+
+        <h2><label>Persoonlijke gegevens</label><br></h2>
+        <label >Geslacht</label>
+        <input type="radio" id="man" name="gender" value="man">
+        <label for="man">Man</label>
+
+        <input type="radio" id="woman" name="gender" value="woman">
+        <label for="woman">Vrouw</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Andere</label><br>
+
+        <label for="fname">Voornaam :</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="last_name">Achternaam :</label>
+        <input type="text" id="last_name" name="last_name"required><br>
+
+        <label for="phone_nr">GSM-nummer :</label>
+        <input type="tel" id="phone_nr" name="phone_nr"
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+
+        <label for="mail">E-mailadres :</label>
+        <input type="text" id="mail" name="mail" required><br>
+
+        <h2><label>Verzendadres</label><br></h2>
+        <label>Land :</label>
+        <select id="countries">
+            <option value="Belgium">België</option>
+        </select> <br>
+        <label >Plaats :</label>
+        <select id="areas">
+            <option value="brussels">Brussel</option>
+        </select> <br>
+        <label >Postcode :</label>
+        <select id="areas1">
+            <option value="Anderlecht">1070</option>
+            <option value="brussel_capital">1000</option>
+            <option value="elsene">1070</option>
+            <option value="etterbeek">1040</option>
+        </select> <br>
+        <label for="sreet_name">Straatnaam :</label>
+        <input type="text" id="sreet_name" name="sreet_name" required><br>
+
+        <label for="house-nr">Huisnummer :</label>
+        <input type="text" id="house-nr" name="house-nr" required><br>
+
+        <h2><label >Bedrag</label><br></h2>
+        <label for="quantity">Aantal stukken :</label>
+        <select id="quantity"required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select> <br>
+        <label for="total">Totaalbedrag</label> <! hoe kan ik het aantal stukken linken met totale bedrag? -->
+        <select id="total">
+            <option value="1">10</option>
+            <option value="2">20</option>
+            <option value="3">25</option>
+        </select> <br>
+        <label for="valuta">Valuta : </label>
+        <select id="valuta">
+            <option value="eur">EUR</option>
+        </select> <br>
+
+        <h2><label >Betalingsmethode</label><br></h2>
+        <input type="radio" id="bank" name="bank" value="bank">
+        <label >Bancontact</label><br>
+
+        <input type="radio" id="bank2" name="bank" value="bank">
+        <label >iDeal</label><br>
+
+        <input type="radio" id="bank3" name="bank" value="bank">
+        <label >WebMoney</label><br>
+
+        <input type="radio" id="bank4" name="bank" value="bank">
+        <label >PayPal</label><br><br>
+
+        <h2> <div class="actions"><input type="submit" name="commit" value="Verzenden" /></div>
+        </h2> <br>
+
+        <h1><p id="rcorners1">Bedankt voor je tijd!</p></h1>
+
+    </form>
+</body>
+</html>
